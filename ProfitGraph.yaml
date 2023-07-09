@@ -1,0 +1,30 @@
+markets:
+  bitFlyer1:
+      type:       BF
+      apiKey:     aaaaaaaaaaaaaaaaaaaaaa
+      secret:     ssssssssssssssssssssssssssssssssssssssssssss
+
+  bybit1:
+      type:       BYBIT
+      apiKey:     kkkkkkkkkkkkkkkkkk
+      secret:     yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+
+  bybit2:
+      type:       BYBIT
+      apiKey:     cccccccccccccccccc
+      secret:     zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+
+  Liquid1:
+      type:       Liquid
+      apiKey:     1111111
+      secret:     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+  GMO1:
+      type:       GMO
+      apiKey:     dddddddddddddddddddddddddddddddd
+      secret:     xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+  Phemex1:
+      type:       PHEMEX
+      apiKey:     dddddddd-dddd-dddd-dddd-dddddddddddd
+      secret:     sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
