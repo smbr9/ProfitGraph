@@ -168,7 +168,7 @@ class exchange_rate(online_information):
         self._logger.info( "update ETHUSD={:.1f}".format(self.__ethusd['price']) )
 
     def __update_btcjpy(self):
-        self.__btcjpy['price'] = int( self._bitflyer_publicapi.public_get_getticker(params={"product_code":"BTC_JPY"})['ltp']) 
+        self.__btcjpy['price'] = int(float(self._bitflyer_publicapi.public_get_getticker(params={"product_code":"BTC_JPY"})['ltp']))
         self.__btcjpy['update_time'] = time.time()
         self._logger.info( "update BTCJPY={:.0f}".format(self.__btcjpy['price']) )
         if self.__fxbtcjpy['price']!=0:
